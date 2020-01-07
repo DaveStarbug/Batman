@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">batman</string>
+    <string name="my_name">my name is Davood Choopani\n Android Developer Tehran</string>
+    <string name="contact_info">Contact info\n Email: dchoopani@yahoo.com\n Phone: (+98)9383337291</string>
+    <string name="about_app">Hello EveryBody,\n this is a test application written for yara software solution company. App get list of Batman played films in IMDB. By clicking in every film complete detail of that film appear. data can be viewed in two mode 1.From API 2.From local storage . In this app I used MVVM architecture pattern with LiveData. Networking with Okhttp. JSON parsing with Gson. Local saving with Shared preferences. also i used explosionfiled and SharedElements transiotion for views. </string>
+</resources>

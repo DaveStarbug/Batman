@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:transitionName="aboutMe"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:text="Me"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header">
+
+        <ImageView
+            android:id="@+id/imgMe"
+            android:layout_width="72dp"
+            android:layout_height="96dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/me"/>
+
+        <TextView
+            android:id="@+id/lblName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:layout_below="@+id/imgMe"
+            android:textSize="16sp"
+            android:lineSpacingExtra="10dp"
+            android:text="@string/my_name"
+            android:layout_margin="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblName"
+            android:lineSpacingExtra="10dp"
+            android:text="@string/contact_info"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
